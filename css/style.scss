@@ -1,0 +1,36 @@
+@import "_normalize.scss";
+
+.main {
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+
+  &-content {
+    padding-top: 83px;
+
+    &__date {
+      margin-bottom: 88px;
+    }
+
+    &__title {
+      font-size: 36px;
+      color: #243D6F;
+      font-weight: 500;
+    }
+
+    &__line {
+      background: #F3F3F3;
+      height: 1px;
+      width: 1040px;
+      margin-bottom: 117px;
+    }
+
+    &__icon {
+      cursor: pointer;
+
+      img {
+        margin: 0 19px;
+      }
+    }
+  }
+}

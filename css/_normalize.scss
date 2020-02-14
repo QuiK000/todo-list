@@ -1,0 +1,27 @@
+$rob: 'Roboto', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body, html {
+  background: url('../img/bg.png') no-repeat;
+  background-size: 100%;
+  font-family: $rob;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1040px;
+  margin: 0 auto;
+}
